@@ -1,0 +1,87 @@
+body {
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #4F6D7A;
+    color: aliceblue;
+    -webkit-text-stroke: black 2px;
+}
+
+.heading,.games,.heading2,.games-heading,img,.all-links,.about {
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+
+.heading, .heading2, .all-links,.about {
+    font-size: 65;
+    text-align: center;
+    background-color: #084C61;
+}
+
+.heading2, .all-links {
+    font-size: 50;
+    margin-top: 100px;
+    margin-left: 36%;
+    margin-right: 36%;
+    padding: 1%;
+}
+
+.games {
+    transition: all .2s ease-in-out;
+    transform: scale(1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30;
+    background-color: #084C61;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.games:hover {
+    transform: scale(1.03);
+}
+.games-heading{
+    margin: 10px;
+    background-color: #042731;
+    font-size: 50;
+}
+  
+a:visited,a:link,a:hover {
+    color: aliceblue;
+    -webkit-text-stroke: black 2px;
+}
+
+.profile {
+    text-align: center;
+}
+
+.all-links {
+    margin-bottom: 100px;
+    transition: all .2s ease-in-out;
+    transform: scale(1);
+}
+
+.all-links:hover {
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: auto;
+    height: auto;
+}
+
+.about {
+    font-size: 50;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1%;
+    text-align: justify;
+}
